@@ -1,8 +1,9 @@
 from funciones import mostrar_menu, registrar_producto, eliminar_producto, modificar_producto, informe_general
 
-opcion = "0"
-
 def main():
+
+    opcion = "0"
+
     while opcion != "5":
         mostrar_menu()
         opcion = input("Seleccione una opción: ")
