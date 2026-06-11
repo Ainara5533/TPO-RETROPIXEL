@@ -12,7 +12,7 @@ tipos_validos = ["Película", "Videojuego"]
 categorias_validas = ["Acción", "Aventura", "Deportes", "Estrategia", "Terror", "Ciencia Ficción", "Infantil", "Otro"]
 estados_validos = ["Disponible", "Alquilado", "Reservado", "Discontinuado"]
 
-titulos_azar = ["Super Mario Bros Wonder", "The Legend of Zelda", "Jurassic Park", "Star Wars"]
+titulos_azar = ["Super Mario Bros Wonder", "The Legend of Zelda", "Jurassic Park", "Star Wars", "Call of Duty", "Resident Evil", "Final Fantasy VII", "Hogwarts Legacy", "Ace Attorney", "Mazze Runner: Correr o Morir", "Avengers: Endgame", "Harry Potter y la Piedra Filosofal", "Los Juegos del Hambre", "El Señor de los Anillos"]
 plataformas_azar = ["PlayStation 5", "Xbox Series X", "Nintendo Switch", "PC", "Blu-ray", "DVD"]
 
 # Autor principal: Agustina Maquieira
