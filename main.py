@@ -1,5 +1,16 @@
 from funciones import mostrar_menu, registrar_producto, eliminar_producto, modificar_producto, informe_general
 
+titulos = []
+tipos = []
+plataformas = []
+modalidades = []
+precios_alquiler = []
+precios_venta = []
+stocks = []
+categorias = []
+estados = []
+
+
 def main():
 
     opcion = "0"
@@ -9,16 +20,17 @@ def main():
         opcion = input("Seleccione una opción: ")
 
         if opcion == "1":
-            registrar_producto()
+            registrar_producto(titulos, tipos, plataformas, modalidades, precios_alquiler, precios_venta, stocks, categorias, estados)
         elif opcion == "2":
-            eliminar_producto()
+            eliminar_producto(titulos, tipos, plataformas, modalidades, precios_alquiler, precios_venta, stocks, categorias, estados)
         elif opcion == "3":
-            modificar_producto()
+            modificar_producto(titulos, tipos, plataformas, modalidades, precios_alquiler, precios_venta, stocks, categorias, estados)
         elif opcion == "4":
-            informe_general()
+            informe_general(titulos, tipos, plataformas, modalidades, precios_alquiler, precios_venta, stocks, categorias, estados)
         elif opcion == "5":
             print("Sistema finalizado.")
         else:
             print("Opción inválida.")
+
 
 main()

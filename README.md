@@ -16,7 +16,7 @@ La primera versión del sistema tiene como objetivo:
 - Registrar y administrar nuevos productos. 
 - Modificar información relevante del catálogo.
 - Eliminar productos discontinuados o dañados.
-- Generar informes operativos y estratégicos.
+- Generar informes operativos y estratégicos.500
 - Facilitar el análisis de ventas, alquileres y disponibilidad según distintos criterios.
 - Mantener una interacción simple, clara y continua para el usuario.
 
