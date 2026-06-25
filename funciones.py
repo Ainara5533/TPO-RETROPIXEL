@@ -205,6 +205,7 @@ def ordenar_por_stock_y_titulo(titulos, tipos, plataformas, precios_venta,
             j = j + 1
         i = i + 1
 
+# Autor Principal: Agustina Maquieira
 def construir_matriz_categoria_tipo(tipos, categorias):
 
     matriz = [
